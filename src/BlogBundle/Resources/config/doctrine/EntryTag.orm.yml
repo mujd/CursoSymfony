@@ -1,0 +1,39 @@
+BlogBundle\Entity\EntryTag:
+    type: entity
+    table: entry_tag
+    indexes:
+        fk_entry_tag_entries:
+            columns:
+                - entry_id
+        fk_entry_tag_tags:
+            columns:
+                - tag_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    manyToOne:
+        entry:
+            targetEntity: Entry
+            cascade: {  }
+            mappedBy: null
+            inversedBy: entryTag
+            joinColumns:
+                entry_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+        tag:
+            targetEntity: Tag
+            cascade: {  }
+            mappedBy: null
+            inversedBy: entryTag
+            joinColumns:
+                tag_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

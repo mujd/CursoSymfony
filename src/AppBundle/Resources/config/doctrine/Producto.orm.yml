@@ -1,0 +1,32 @@
+AppBundle\Entity\Producto:
+    type: entity
+    table: productos
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        name:
+            type: string
+            nullable: true
+            length: 255
+            fixed: false
+            comment: ''
+        description:
+            type: string
+            nullable: true
+            length: 255
+            fixed: false
+            comment: ''
+        price:
+            type: string
+            nullable: true
+            length: 255
+            fixed: false
+            comment: ''
+    lifecycleCallbacks: {  }

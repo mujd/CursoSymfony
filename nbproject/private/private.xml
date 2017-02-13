@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/app/config/security.yml</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/Form/EntryType.php</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/Controller/EntryController.php</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/Resources/views/Entry/index.html.twig</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/EventListener/LocaleListener.php</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/app/config/services.yml</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/src/BlogBundle/Controller/DefaultController.php</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/app/Resources/Translations/messages.es.yml</file>
+            <file>file:/C:/xampp/htdocs/CursoSymfony/app/Resources/Translations/messages.en.yml</file>
+        </group>
+    </open-files>
+</project-private>
